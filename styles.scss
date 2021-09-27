@@ -21,6 +21,27 @@ html,
 a {
   text-decoration: none;
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+
+  background-color: rgb(48, 48, 48);
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  -webkit-border-radius: 10px;
+  border-radius: 10px;
+  background: rgba(153, 153, 153, 0.8);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(20, 65, 107, 0.4);
+}
 
 ///////generale
 .home,
@@ -397,7 +418,7 @@ a {
 
     .subscribe {
       input {
-        width: 100%;
+        width: 50%;
         background-color: #666666;
         color: white;
         border: none;
@@ -407,14 +428,30 @@ a {
         text-transform: capitalize;
         margin: 10px 0;
         border-radius: 4px;
+        transition: width 0.4s ease-in-out;
       }
 
       input:focus {
         outline: none;
+        width: 100%;
       }
-
-      input:nth-of-type(4) {
-        margin-top: auto;
+      textarea:focus {
+        outline: none;
+        width: 100%;
+      }
+      textarea {
+        width: 80%;
+        background-color: #666666;
+        color: white;
+        border: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.514);
+        padding: 10px 10px;
+        font-size: 1rem;
+        text-transform: capitalize;
+        margin: 10px 0;
+        border-radius: 4px;
+        transition: width 0.4s ease-in-out;
+        resize: none;
       }
 
       .btn-wrap {
@@ -425,6 +462,7 @@ a {
           transition: all 0.3s;
           position: relative;
           height: 60px;
+          width: 110px;
           display: flex;
           justify-content: center;
           align-items: center;
@@ -899,15 +937,10 @@ a {
           margin: 15px 0;
           font-size: 0.8rem;
           text-transform: capitalize;
-          font-size: 1.4rem;
         }
 
         input:focus {
           outline: none;
-        }
-
-        input:nth-of-type(4) {
-          margin-top: auto;
         }
 
         .btn-wrap {
@@ -1492,18 +1525,14 @@ a {
           border-bottom: 1px solid rgba(255, 255, 255, 0.514);
           padding: 10px 30px;
           margin: 15px 0;
-          font-size: 0.8rem;
+
           text-transform: capitalize;
-          font-size: 1.4rem;
+          font-size: 1.3rem;
         }
 
         input:focus {
           outline: none;
-        }
-
-        input:nth-of-type(4) {
-          margin-top: auto;
-          margin-bottom: 0;
+          width: 100%;
         }
 
         .btn-wrap {

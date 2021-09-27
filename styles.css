@@ -25,6 +25,27 @@ a {
   text-decoration: none;
 }
 
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  background-color: #303030;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(153, 153, 153, 0.8);
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
+
+::-webkit-scrollbar-thumb:window-inactive {
+  background: rgba(20, 65, 107, 0.4);
+}
+
 .home,
 .about,
 .work,
@@ -510,7 +531,7 @@ a {
 }
 
 .contatti .text-window .subscribe input {
-  width: 100%;
+  width: 50%;
   background-color: #666666;
   color: white;
   border: none;
@@ -520,14 +541,34 @@ a {
   text-transform: capitalize;
   margin: 10px 0;
   border-radius: 4px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
 .contatti .text-window .subscribe input:focus {
   outline: none;
+  width: 100%;
 }
 
-.contatti .text-window .subscribe input:nth-of-type(4) {
-  margin-top: auto;
+.contatti .text-window .subscribe textarea:focus {
+  outline: none;
+  width: 100%;
+}
+
+.contatti .text-window .subscribe textarea {
+  width: 80%;
+  background-color: #666666;
+  color: white;
+  border: none;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.514);
+  padding: 10px 10px;
+  font-size: 1rem;
+  text-transform: capitalize;
+  margin: 10px 0;
+  border-radius: 4px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  resize: none;
 }
 
 .contatti .text-window .subscribe .btn-wrap {
@@ -540,6 +581,7 @@ a {
   transition: all 0.3s;
   position: relative;
   height: 60px;
+  width: 110px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1105,13 +1147,9 @@ a {
     margin: 15px 0;
     font-size: 0.8rem;
     text-transform: capitalize;
-    font-size: 1.4rem;
   }
   .contatti .text-window .subscribe input:focus {
     outline: none;
-  }
-  .contatti .text-window .subscribe input:nth-of-type(4) {
-    margin-top: auto;
   }
   .contatti .text-window .subscribe .btn-wrap {
     margin-top: 20px;
@@ -1812,16 +1850,12 @@ a {
     border-bottom: 1px solid rgba(255, 255, 255, 0.514);
     padding: 10px 30px;
     margin: 15px 0;
-    font-size: 0.8rem;
     text-transform: capitalize;
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .contatti .text-window .subscribe input:focus {
     outline: none;
-  }
-  .contatti .text-window .subscribe input:nth-of-type(4) {
-    margin-top: auto;
-    margin-bottom: 0;
+    width: 100%;
   }
   .contatti .text-window .subscribe .btn-wrap {
     margin: 40px 0;
