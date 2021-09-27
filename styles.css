@@ -49,7 +49,7 @@ a {
 .home,
 .about,
 .work,
-.contatti {
+.contact {
   width: 100vw;
   height: 100vh;
   height: auto;
@@ -212,7 +212,7 @@ a {
   box-shadow: -20px 0px 25px -7px #0c0c0c, 20px 0px 25px -7px #0c0c0c, 5px 5px 15px 5px rgba(0, 0, 0, 0);
 }
 
-.about .abouttext .text .paragrafo {
+.about .abouttext .text .paragraph {
   color: black;
   line-height: 1.6rem;
   font-size: 1.4rem;
@@ -475,7 +475,7 @@ a {
   height: 2px;
 }
 
-.contatti {
+.contact {
   height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -490,7 +490,7 @@ a {
   background-color: #4f4f4f;
 }
 
-.contatti .text-window {
+.contact .text-window {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -507,8 +507,8 @@ a {
   border-radius: 10px;
 }
 
-.contatti .text-window .subscribe,
-.contatti .text-window .info {
+.contact .text-window .subscribe,
+.contact .text-window .info {
   min-height: 500px;
   width: 100%;
   display: -webkit-box;
@@ -524,13 +524,13 @@ a {
   padding: 20px;
 }
 
-.contatti .text-window .subscribe h1,
-.contatti .text-window .info h1 {
+.contact .text-window .subscribe h1,
+.contact .text-window .info h1 {
   text-transform: uppercase;
   margin: 30px 0;
 }
 
-.contatti .text-window .subscribe input {
+.contact .text-window .subscribe input {
   width: 80%;
   background-color: #666666;
   color: white;
@@ -545,17 +545,17 @@ a {
   transition: width 0.4s ease-in-out;
 }
 
-.contatti .text-window .subscribe input:focus {
+.contact .text-window .subscribe input:focus {
   outline: none;
   width: 100%;
 }
 
-.contatti .text-window .subscribe textarea:focus {
+.contact .text-window .subscribe textarea:focus {
   outline: none;
   width: 100%;
 }
 
-.contatti .text-window .subscribe textarea {
+.contact .text-window .subscribe textarea {
   width: 80%;
   background-color: #666666;
   color: white;
@@ -571,11 +571,11 @@ a {
   resize: none;
 }
 
-.contatti .text-window .subscribe .btn-wrap {
+.contact .text-window .subscribe .btn-wrap {
   margin-top: 20px;
 }
 
-.contatti .text-window .subscribe .btn-wrap .btn-one {
+.contact .text-window .subscribe .btn-wrap .btn-one {
   color: #fff;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
@@ -595,13 +595,13 @@ a {
   cursor: pointer;
 }
 
-.contatti .text-window .subscribe .btn-wrap .btn-one span {
+.contact .text-window .subscribe .btn-wrap .btn-one span {
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   font-size: 25px;
 }
 
-.contatti .text-window .subscribe .btn-wrap .btn-one::before {
+.contact .text-window .subscribe .btn-wrap .btn-one::before {
   content: "";
   position: absolute;
   bottom: 0;
@@ -623,17 +623,17 @@ a {
   border-radius: 0px;
 }
 
-.contatti .text-window .subscribe .btn-wrap .btn-one:hover span {
+.contact .text-window .subscribe .btn-wrap .btn-one:hover span {
   letter-spacing: 2px;
 }
 
-.contatti .text-window .subscribe .btn-wrap .btn-one:hover::before {
+.contact .text-window .subscribe .btn-wrap .btn-one:hover::before {
   opacity: 1;
   -webkit-transform: scale(1, 1);
           transform: scale(1, 1);
 }
 
-.contatti .text-window .subscribe .btn-wrap .btn-one::after {
+.contact .text-window .subscribe .btn-wrap .btn-one::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -647,49 +647,49 @@ a {
   border-radius: 5px;
 }
 
-.contatti .text-window .subscribe .btn-wrap .btn-one:hover::after {
+.contact .text-window .subscribe .btn-wrap .btn-one:hover::after {
   opacity: 0;
   -webkit-transform: scale(0.1, 1);
           transform: scale(0.1, 1);
 }
 
-.contatti .text-window .info .subtitle {
+.contact .text-window .info .subtitle {
   text-align: center;
 }
 
-.contatti .text-window .info .info-item {
+.contact .text-window .info .info-item {
   width: 100%;
   margin-top: 30px;
   list-style-type: none;
 }
 
-.contatti .text-window .info .info-item .info-link {
+.contact .text-window .info .info-item .info-link {
   padding: 15px 0;
 }
 
-.contatti .text-window .info .info-item .info-link i {
+.contact .text-window .info .info-item .info-link i {
   font-size: 1.3rem;
   width: 40px;
   text-align: center;
 }
 
-.contatti .text-window .info .info-item .info-link span {
+.contact .text-window .info .info-item .info-link span {
   text-transform: capitalize;
 }
 
-.contatti .text-window .info .info-item .info-link p {
+.contact .text-window .info .info-item .info-link p {
   font-size: 0.8rem;
   margin-left: 25px;
   color: rgba(255, 255, 255, 0.664);
   word-wrap: break-word;
 }
 
-.contatti .up {
+.contact .up {
   margin-bottom: 100px;
   margin-top: 20px;
 }
 
-.contatti .up a i {
+.contact .up a i {
   font-size: 30px;
 }
 
@@ -839,7 +839,7 @@ a {
     margin: 5vh 0;
     border-bottom: 2px solid rgba(255, 255, 255, 0.685);
   }
-  .about .abouttext .contenuto {
+  .about .abouttext .content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -847,7 +847,7 @@ a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .about .abouttext .contenuto .text {
+  .about .abouttext .content .text {
     max-height: 77vh;
     padding: 30px;
     text-align: center;
@@ -857,12 +857,12 @@ a {
     -webkit-transition: 300ms cubic-bezier(0.86, 0, 0.07, 1);
     transition: 300ms cubic-bezier(0.86, 0, 0.07, 1);
   }
-  .about .abouttext .contenuto .text .paragrafo {
+  .about .abouttext .content .text .paragraph {
     color: black;
     font-size: 1.4rem;
     line-height: 1.8rem;
   }
-  .about .abouttext .contenuto .text .paragrafo:nth-of-type(2) {
+  .about .abouttext .content .text .paragraph:nth-of-type(2) {
     margin: 25px 0;
   }
   .work {
@@ -1088,7 +1088,7 @@ a {
     text-align: center;
     font-size: 1.3rem;
   }
-  .contatti {
+  .contact {
     height: auto;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1101,7 +1101,7 @@ a {
         -ms-flex-align: center;
             align-items: center;
   }
-  .contatti .text-window {
+  .contact .text-window {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1116,8 +1116,8 @@ a {
     margin-top: 70px;
     background-color: rgba(0, 0, 0, 0.459);
   }
-  .contatti .text-window .subscribe,
-  .contatti .text-window .info {
+  .contact .text-window .subscribe,
+  .contact .text-window .info {
     min-height: 800px;
     width: 100%;
     display: -webkit-box;
@@ -1132,13 +1132,13 @@ a {
             align-items: center;
     padding: 40px;
   }
-  .contatti .text-window .subscribe h1,
-  .contatti .text-window .info h1 {
+  .contact .text-window .subscribe h1,
+  .contact .text-window .info h1 {
     text-transform: uppercase;
     margin: 20px 0;
     font-size: 1.4rem;
   }
-  .contatti .text-window .subscribe input {
+  .contact .text-window .subscribe input {
     width: 80%;
     background-color: #666666;
     color: white;
@@ -1149,13 +1149,13 @@ a {
     font-size: 0.8rem;
     text-transform: capitalize;
   }
-  .contatti .text-window .subscribe input:focus {
+  .contact .text-window .subscribe input:focus {
     outline: none;
   }
-  .contatti .text-window .subscribe .btn-wrap {
+  .contact .text-window .subscribe .btn-wrap {
     margin-top: 20px;
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one {
+  .contact .text-window .subscribe .btn-wrap .btn-one {
     color: #fff;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -1172,12 +1172,12 @@ a {
             align-items: center;
     margin-bottom: 20px;
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one span {
+  .contact .text-window .subscribe .btn-wrap .btn-one span {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     font-size: 25px;
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one::before {
+  .contact .text-window .subscribe .btn-wrap .btn-one::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -1198,15 +1198,15 @@ a {
             transform: scale(0.1, 1);
     border-radius: 0px;
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one:hover span {
+  .contact .text-window .subscribe .btn-wrap .btn-one:hover span {
     letter-spacing: 2px;
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one:hover::before {
+  .contact .text-window .subscribe .btn-wrap .btn-one:hover::before {
     opacity: 1;
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1);
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one::after {
+  .contact .text-window .subscribe .btn-wrap .btn-one::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -1219,41 +1219,41 @@ a {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one:hover::after {
+  .contact .text-window .subscribe .btn-wrap .btn-one:hover::after {
     opacity: 0;
     -webkit-transform: scale(0.1, 1);
             transform: scale(0.1, 1);
   }
-  .contatti .text-window .info .subtitle {
+  .contact .text-window .info .subtitle {
     text-align: center;
     font-size: 1.3rem;
   }
-  .contatti .text-window .info .info-item {
+  .contact .text-window .info .info-item {
     width: 100%;
     margin-top: 30px;
     list-style-type: none;
   }
-  .contatti .text-window .info .info-item .info-link {
+  .contact .text-window .info .info-item .info-link {
     padding: 35px 0;
   }
-  .contatti .text-window .info .info-item .info-link i {
+  .contact .text-window .info .info-item .info-link i {
     font-size: 1.7rem;
     width: 70px;
     text-align: center;
   }
-  .contatti .text-window .info .info-item .info-link span {
+  .contact .text-window .info .info-item .info-link span {
     text-transform: capitalize;
   }
-  .contatti .text-window .info .info-item .info-link p {
+  .contact .text-window .info .info-item .info-link p {
     font-size: 1.2rem;
     margin-left: 70px;
     margin-top: 10px;
   }
-  .contatti .up {
+  .contact .up {
     margin-bottom: 100px;
     margin-top: 20px;
   }
-  .contatti .up a i {
+  .contact .up a i {
     font-size: 30px;
   }
 }
@@ -1262,7 +1262,7 @@ a {
   .home,
   .about,
   .work,
-  .contatti {
+  .contact {
     height: 100vh;
     width: calc(100vw - 100px);
   }
@@ -1512,7 +1512,7 @@ a {
     margin: 5vh 0;
     border-bottom: 2px solid rgba(255, 255, 255, 0.685);
   }
-  .about .abouttext .contenuto {
+  .about .abouttext .content {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1523,7 +1523,7 @@ a {
     height: auto;
     width: auto;
   }
-  .about .abouttext .contenuto .text {
+  .about .abouttext .content .text {
     max-height: none;
     padding: 0px;
     text-align: center;
@@ -1547,23 +1547,23 @@ a {
         -ms-flex-pack: center;
             justify-content: center;
   }
-  .about .abouttext .contenuto .text .paragrafo {
+  .about .abouttext .content .text .paragraph {
     color: black;
     font-size: 1.6rem;
     line-height: 2.2rem;
     -webkit-transition: 400ms cubic-bezier(0.86, 0, 0.07, 1);
     transition: 400ms cubic-bezier(0.86, 0, 0.07, 1);
   }
-  .about .abouttext .contenuto .text .paragrafo:nth-of-type(2) {
+  .about .abouttext .content .text .paragraph:nth-of-type(2) {
     margin: 0;
   }
-  .about .abouttext .contenuto .text:hover {
+  .about .abouttext .content .text:hover {
     width: 70vw;
     -webkit-box-pack: space-evenly;
         -ms-flex-pack: space-evenly;
             justify-content: space-evenly;
   }
-  .about .abouttext .contenuto .text:hover .paragrafo {
+  .about .abouttext .content .text:hover .paragraph {
     font-size: 1.9rem;
     line-height: 2.5rem;
   }
@@ -1791,7 +1791,7 @@ a {
     text-align: center;
     font-size: 1.3rem;
   }
-  .contatti {
+  .contact {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1803,7 +1803,7 @@ a {
         -ms-flex-align: center;
             align-items: center;
   }
-  .contatti .text-window {
+  .contact .text-window {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1820,8 +1820,8 @@ a {
     margin-top: 70px;
     background-color: rgba(0, 0, 0, 0.459);
   }
-  .contatti .text-window .subscribe,
-  .contatti .text-window .info {
+  .contact .text-window .subscribe,
+  .contact .text-window .info {
     min-height: none !important;
     min-width: 150px;
     width: 50%;
@@ -1837,13 +1837,13 @@ a {
             align-items: center;
     padding: 30px;
   }
-  .contatti .text-window .subscribe h1,
-  .contatti .text-window .info h1 {
+  .contact .text-window .subscribe h1,
+  .contact .text-window .info h1 {
     text-transform: uppercase;
     margin: 40px 0;
     font-size: 1.2rem;
   }
-  .contatti .text-window .subscribe input {
+  .contact .text-window .subscribe input {
     width: 80%;
     background-color: #666666;
     color: white;
@@ -1854,14 +1854,14 @@ a {
     text-transform: capitalize;
     font-size: 1.3rem;
   }
-  .contatti .text-window .subscribe input:focus {
+  .contact .text-window .subscribe input:focus {
     outline: none;
     width: 100%;
   }
-  .contatti .text-window .subscribe .btn-wrap {
+  .contact .text-window .subscribe .btn-wrap {
     margin: 40px 0;
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one {
+  .contact .text-window .subscribe .btn-wrap .btn-one {
     color: #fff;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -1878,12 +1878,12 @@ a {
             align-items: center;
     margin-bottom: 20px;
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one span {
+  .contact .text-window .subscribe .btn-wrap .btn-one span {
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
     font-size: 25px;
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one::before {
+  .contact .text-window .subscribe .btn-wrap .btn-one::before {
     content: "";
     position: absolute;
     bottom: 0;
@@ -1904,15 +1904,15 @@ a {
             transform: scale(0.1, 1);
     border-radius: 0px;
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one:hover span {
+  .contact .text-window .subscribe .btn-wrap .btn-one:hover span {
     letter-spacing: 2px;
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one:hover::before {
+  .contact .text-window .subscribe .btn-wrap .btn-one:hover::before {
     opacity: 1;
     -webkit-transform: scale(1, 1);
             transform: scale(1, 1);
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one::after {
+  .contact .text-window .subscribe .btn-wrap .btn-one::after {
     content: "";
     position: absolute;
     bottom: 0;
@@ -1925,43 +1925,43 @@ a {
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 5px;
   }
-  .contatti .text-window .subscribe .btn-wrap .btn-one:hover::after {
+  .contact .text-window .subscribe .btn-wrap .btn-one:hover::after {
     opacity: 0;
     -webkit-transform: scale(0.1, 1);
             transform: scale(0.1, 1);
   }
-  .contatti .text-window .info .subtitle {
+  .contact .text-window .info .subtitle {
     text-align: left;
     font-size: 1rem;
     padding-left: 20px;
   }
-  .contatti .text-window .info .info-item {
+  .contact .text-window .info .info-item {
     width: 100%;
     margin-top: 50px;
     list-style-type: none;
   }
-  .contatti .text-window .info .info-item .info-link {
+  .contact .text-window .info .info-item .info-link {
     padding: 20px 0;
   }
-  .contatti .text-window .info .info-item .info-link i {
+  .contact .text-window .info .info-item .info-link i {
     font-size: 1.7rem;
     width: 70px;
     text-align: center;
   }
-  .contatti .text-window .info .info-item .info-link span {
+  .contact .text-window .info .info-item .info-link span {
     text-transform: capitalize;
     font-size: 1.3rem;
   }
-  .contatti .text-window .info .info-item .info-link p {
+  .contact .text-window .info .info-item .info-link p {
     font-size: 1rem;
     margin-left: 70px;
     margin-top: 10px;
   }
-  .contatti .up {
+  .contact .up {
     margin-bottom: 100px;
     margin-top: 20px;
   }
-  .contatti .up a i {
+  .contact .up a i {
     font-size: 30px;
   }
 }
