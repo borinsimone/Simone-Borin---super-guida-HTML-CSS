@@ -531,7 +531,7 @@ a {
 }
 
 .contatti .text-window .subscribe input {
-  width: 50%;
+  width: 80%;
   background-color: #666666;
   color: white;
   border: none;
@@ -592,6 +592,7 @@ a {
       -ms-flex-align: center;
           align-items: center;
   margin-bottom: 20px;
+  cursor: pointer;
 }
 
 .contatti .text-window .subscribe .btn-wrap .btn-one span {
@@ -1138,7 +1139,7 @@ a {
     font-size: 1.4rem;
   }
   .contatti .text-window .subscribe input {
-    width: 100%;
+    width: 80%;
     background-color: #666666;
     color: white;
     border: none;

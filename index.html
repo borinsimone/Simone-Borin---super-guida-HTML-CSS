@@ -8,13 +8,13 @@
     <script src="https://kit.fontawesome.com/5f5c3819f1.js" crossorigin="anonymous"></script>    
 
     <title>Borin-Simone</title>
-<!-- 
+
     <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
     <script type="text/javascript">
     (function() {
     emailjs.init("user_9QbPas6Lk3s3PTRvPgxe1");
     })();
-    </script> -->
+    </script>
 
     
 </head>
@@ -171,13 +171,14 @@
                     <div class="text-window">
                         <div class="subscribe">
                             <h1>mail-box</h1>
-                            <input type="text"  placeholder="Name">
+                            <input type="text" id="toName" placeholder="Name">
                             <!-- <input type="text" placeholder="cognome"> -->
-                            <input type="text" placeholder="E-mail">
-                            <!-- <input type="text" placeholder="Text Here"> -->
-                            <textarea name="" placeholder="text here" id="" cols="30" rows="10"></textarea>
+                            <input type="text" id="fromName" placeholder="E-mail">
+                            <!-- <input type="text" id="msg" placeholder="Text Here"> -->
+                            <textarea  name="" placeholder="enter your message here" id="msg" cols="30" rows="10"></textarea>
+                            
                             <div class="btn-wrap">
-                                <div class="btn btn-one">
+                                <div onclick="sendMail()" class="btn btn-one">
                                     <span>Submit</span>
                                   </div>
                                 </div>
@@ -199,6 +200,37 @@
            
             
         </div>
-    
+    <script>
+        
+
+
+
+//     var templateParams = {
+//         from_name: document.getElementById(`fromName`).value,
+//         to_name: document.getElementById(`toName`).value,
+//         message: document.getElementById(`msg`).value,
+// };
+
+
+// emailjs.send('service_6lyr3fw', 'template_38mmvvo', templateParams)
+//     .then(function(response) {
+//        console.log('SUCCESS!', response.status, response.text);
+//     }, function(error) {
+//        console.log('FAILED...', error);
+//     });
+
+        function sendMail(params){
+            var tempParams = {
+                from_name: document.getElementById(`fromName`).value,
+                to_name: document.getElementById(`toName`).value,
+                message: document.getElementById(`msg`).value,
+
+            };
+            emailjs.send(`service_6lyr3fw`,`template_yetbo2g`,tempParams)
+            .then(function(res) {    
+            console.log(`success`, res.status);
+            })
+        }
+    </script>
 </body>
 </html>
