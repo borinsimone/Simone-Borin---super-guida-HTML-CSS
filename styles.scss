@@ -27,7 +27,7 @@ a {
 
 /* Track */
 ::-webkit-scrollbar-track {
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  -webkit-box-shadow: inset 5px 0 10px rgb(0, 0, 0);
 
   background-color: rgb(48, 48, 48);
 }
@@ -36,8 +36,8 @@ a {
 ::-webkit-scrollbar-thumb {
   -webkit-border-radius: 10px;
   border-radius: 10px;
-  background: rgba(153, 153, 153, 0.8);
-  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+  background: rgba(87, 87, 87, 0.8);
+  -webkit-box-shadow: inset 2px 0 2px rgba(255, 255, 255, 0.5);
 }
 ::-webkit-scrollbar-thumb:window-inactive {
   background: rgba(20, 65, 107, 0.4);
@@ -1197,6 +1197,7 @@ a {
 
     .title:hover h1 {
       transform: translateY(100px) scale(1);
+      -webkit-backdrop-filter: blur(4px);
       backdrop-filter: blur(4px);
     }
     .title:hover .glow {
@@ -1514,21 +1515,35 @@ a {
 
       .subscribe {
         input {
-          width: 80%;
+          width: 60%;
           background-color: #666666;
           color: white;
           border: none;
           border-bottom: 1px solid rgba(255, 255, 255, 0.514);
           padding: 10px 30px;
           margin: 15px 0;
-
+          transition: 300ms ease;
           text-transform: capitalize;
           font-size: 1.3rem;
         }
 
         input:focus {
           outline: none;
-          width: 100%;
+          width: 80%;
+          transform: translateY(-5px);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.377),
+            inset 5px 5px 5px rgb(146, 146, 146);
+        }
+        textarea {
+          width: 60%;
+          transition: 300ms ease;
+        }
+        textarea:focus {
+          outline: none;
+          width: 80%;
+          transform: translateY(-5px);
+          box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.377),
+            inset 5px 5px 5px rgb(146, 146, 146);
         }
 
         .btn-wrap {
@@ -1568,7 +1583,7 @@ a {
             border-radius: 0px;
           }
           .btn-one:hover span {
-            letter-spacing: 2px;
+            letter-spacing: 4px;
           }
           .btn-one:hover::before {
             opacity: 1;
@@ -1644,11 +1659,9 @@ a {
 @media only screen and (min-width: 961px) {
   .title:hover h1 {
     transform: translateY(100px) scale(1.2) !important;
-    backdrop-filter: blur(4px);
   }
   .title:hover .glow {
     transform: translateY(40px);
-    backdrop-filter: blur(4px);
     width: 790px;
   }
 }
@@ -1656,11 +1669,9 @@ a {
 @media only screen and (min-width: 1000px) {
   .title:hover h1 {
     transform: translateY(100px) scale(1.3) !important;
-    backdrop-filter: blur(4px);
   }
   .title:hover .glow {
     transform: translateY(40px);
-    backdrop-filter: blur(4px);
     width: 790px;
   }
 }
@@ -1668,11 +1679,9 @@ a {
 @media only screen and (min-width: 1200px) {
   .title:hover h1 {
     transform: translateY(100px) scale(1.5) !important;
-    backdrop-filter: blur(4px);
   }
   .title:hover .glow {
     transform: translateY(40px);
-    backdrop-filter: blur(4px);
     width: 1000px;
   }
 }
