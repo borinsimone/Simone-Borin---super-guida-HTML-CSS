@@ -57,8 +57,8 @@ a {
 
 .glow {
   background-color: #fff;
-  -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
-          box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
+  -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
+          box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
 }
 
 .navbar {
@@ -1821,7 +1821,7 @@ a {
   }
   .contact .text-window .subscribe,
   .contact .text-window .info {
-    min-height: none !important;
+    min-height: 100% !important;
     min-width: 150px;
     width: 50%;
     display: -webkit-box;
@@ -1834,7 +1834,7 @@ a {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    padding: 30px;
+    padding: 0;
   }
   .contact .text-window .subscribe h1,
   .contact .text-window .info h1 {
