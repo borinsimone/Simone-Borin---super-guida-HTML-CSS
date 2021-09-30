@@ -679,7 +679,43 @@ html,
     border-radius: 5px;
     background-color: rgba(17, 17, 17, 0.233);
   }
-  .navbar ul {
+  .navbar .user-dropdown {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    position: absolute;
+    top: 70px;
+    background-color: red;
+    width: 150px;
+    height: 400px;
+    list-style: none;
+    border-radius: 5px;
+  }
+  .navbar .user-dropdown li {
+    width: 100%;
+    padding: 0 10px;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-transform: capitalize;
+    -webkit-transition: 200ms ease-in;
+    transition: 200ms ease-in;
+  }
+  .navbar .cart-dropdown {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -695,19 +731,19 @@ html,
         -ms-flex-align: start;
             align-items: flex-start;
     list-style: none;
-    background-color: rgba(151, 255, 232, 0.418);
+    background-color: rgba(180, 238, 20, 0.623);
     border-radius: 10px;
     padding: 15px 20px;
     width: 0px;
     height: 70vh;
     top: 70px;
-    right: 0;
+    right: -40px;
     -webkit-transition: 300ms ease-in;
     transition: 300ms ease-in;
     -webkit-backdrop-filter: blur(5px);
             backdrop-filter: blur(5px);
   }
-  .navbar ul li {
+  .navbar .cart-dropdown li {
     width: 100%;
     padding: 8px 12px;
     margin: 10px 0;
@@ -727,13 +763,18 @@ html,
     -webkit-transition: 200ms ease-in;
     transition: 200ms ease-in;
   }
-  .navbar ul li:nth-of-type(5) {
+  .navbar .cart-dropdown li p {
+    background-color: rgba(255, 255, 255, 0.397);
+    padding: 2px 4px;
+    border-radius: 5px;
+  }
+  .navbar .cart-dropdown li:nth-of-type(5) {
     margin-top: auto;
   }
-  .navbar ul li:nth-of-type(5):hover {
+  .navbar .cart-dropdown li:nth-of-type(5):hover {
     background-color: #fff;
   }
-  .navbar ul li:hover {
+  .navbar .cart-dropdown li:hover {
     background-color: rgba(0, 0, 0, 0.219);
     -webkit-transform: scale(1.05);
             transform: scale(1.05);
@@ -743,6 +784,7 @@ html,
     width: 300px;
     -webkit-box-shadow: inset 6px 6px 15px 1px rgba(255, 255, 255, 0.507), inset -6px -6px 15px 1px rgba(0, 0, 0, 0.507);
             box-shadow: inset 6px 6px 15px 1px rgba(255, 255, 255, 0.507), inset -6px -6px 15px 1px rgba(0, 0, 0, 0.507);
+    right: 0;
   }
   .mainpage .home {
     width: 100vw;
