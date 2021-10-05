@@ -42,13 +42,20 @@ html,
   }
   .nav-link:hover {
     border-radius: 5px;
-    background-color: rgba(146, 248, 255, 0.726);
+    background-color: rgba(
+      146,
+      248,
+      255,
+      0.726
+    );
   }
   .nav-link:hover:nth-of-type(1) {
-    box-shadow: inset 0 0 0 5px rgba(97, 97, 97, 0.411);
+    box-shadow: inset 0 0 0 5px
+      rgba(97, 97, 97, 0.411);
   }
   .nav-link:hover:nth-of-type(2) {
-    box-shadow: inset 0 0 0 5px rgba(97, 97, 97, 0.411);
+    box-shadow: inset 0 0 0 5px
+      rgba(97, 97, 97, 0.411);
   }
   ul {
     position: absolute;
@@ -79,15 +86,29 @@ html,
       h1 {
         font-size: 1.7rem;
         letter-spacing: 3px;
-        border-bottom: 2px solid rgb(255, 255, 255);
-        transition: 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+        border-bottom: 2px solid
+          rgb(255, 255, 255);
+        transition: 200ms
+          cubic-bezier(
+            0.075,
+            0.82,
+            0.165,
+            1
+          );
       }
 
       p {
         font-size: 1.7rem;
         letter-spacing: 3px;
-        border-bottom: 2px solid rgb(255, 255, 255);
-        transition: 200ms cubic-bezier(0.075, 0.82, 0.165, 1);
+        border-bottom: 2px solid
+          rgb(255, 255, 255);
+        transition: 200ms
+          cubic-bezier(
+            0.075,
+            0.82,
+            0.165,
+            1
+          );
         transition-delay: 100ms;
       }
     }
@@ -96,11 +117,17 @@ html,
       transform: scale(1.4);
     }
     .title:hover p {
-      transform: scale(1.4) translateY(10px);
+      transform: scale(1.4)
+        translateY(10px);
     }
 
     .maintext {
-      background-color: rgba(255, 255, 255, 0.589);
+      background-color: rgba(
+        255,
+        255,
+        255,
+        0.589
+      );
       width: 85vw;
       border-radius: 5px;
       margin-top: 20px;
@@ -126,7 +153,13 @@ html,
 
   .card-image {
     width: 85vw;
-    transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    transition: 500ms
+      cubic-bezier(
+        0.075,
+        0.82,
+        0.165,
+        1
+      );
   }
   .card-image:hover {
     width: 100vw;
@@ -134,7 +167,12 @@ html,
 
   .content {
     width: 95vw;
-    background-color: rgba(255, 255, 255, 0.753);
+    background-color: rgba(
+      255,
+      255,
+      255,
+      0.753
+    );
     position: relative;
     bottom: 40px;
     text-align: center;
@@ -160,7 +198,14 @@ html,
       display: block;
       position: relative;
       border: 2px solid #000000;
-      transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+      transition: all 0.4s
+        cubic-bezier(
+          0.215,
+          0.61,
+          0.355,
+          1
+        )
+        0s;
     }
     a.animated-button.thar-one:hover {
       color: #000 !important;
@@ -183,7 +228,14 @@ html,
       content: "";
       color: #000 !important;
       background: #ff0000;
-      transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+      transition: all 0.4s
+        cubic-bezier(
+          0.215,
+          0.61,
+          0.355,
+          1
+        )
+        0s;
     }
   }
 }
@@ -207,9 +259,16 @@ html,
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 10px
+    rgba(0, 0, 0, 0.1);
   cursor: pointer;
-  transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.2s
+    cubic-bezier(
+      0.68,
+      -0.55,
+      0.265,
+      1.55
+    );
 }
 
 .wrapper .tooltip {
@@ -220,10 +279,17 @@ html,
   color: #ffffff;
   padding: 5px 8px;
   border-radius: 5px;
-  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 10px 10px
+    rgba(0, 0, 0, 0.1);
   opacity: 0;
   pointer-events: none;
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transition: all 0.3s
+    cubic-bezier(
+      0.68,
+      -0.55,
+      0.265,
+      1.55
+    );
 }
 
 .wrapper .tooltip::before {
@@ -234,8 +300,15 @@ html,
   background-color: #ffffff;
   bottom: -3px;
   left: 50%;
-  transform: translate(-50%) rotate(45deg);
-  transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+  transform: translate(-50%)
+    rotate(45deg);
+  transition: all 0.3s
+    cubic-bezier(
+      0.68,
+      -0.55,
+      0.265,
+      1.55
+    );
 }
 
 .wrapper .icon:hover .tooltip {
@@ -252,7 +325,9 @@ html,
 
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
+.wrapper
+  .facebook:hover
+  .tooltip::before {
   background-color: #3b5999;
   color: #ffffff;
 }
@@ -266,7 +341,9 @@ html,
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
+.wrapper
+  .instagram:hover
+  .tooltip::before {
   background-color: #e1306c;
   color: #ffffff;
 }
@@ -280,7 +357,9 @@ html,
 
 .wrapper .youtube:hover,
 .wrapper .youtube:hover .tooltip,
-.wrapper .youtube:hover .tooltip::before {
+.wrapper
+  .youtube:hover
+  .tooltip::before {
   background-color: #de463b;
   color: #ffffff;
 }
@@ -315,7 +394,12 @@ html,
       }
       .nav-link:hover {
         border-radius: 5px;
-        background-color: rgba(17, 17, 17, 0.233);
+        background-color: rgba(
+          17,
+          17,
+          17,
+          0.233
+        );
       }
     }
   }
@@ -352,7 +436,11 @@ html,
       }
 
       .maintext {
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(
+          255,
+          255,
+          255
+        );
         width: 45vw;
         min-width: 330px;
         height: auto;
@@ -383,7 +471,13 @@ html,
 
     .card-image {
       width: 85vw;
-      transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+      transition: 500ms
+        cubic-bezier(
+          0.075,
+          0.82,
+          0.165,
+          1
+        );
     }
     .card-image:hover {
       width: 100vw;
@@ -392,7 +486,12 @@ html,
 
     .content {
       width: 95vw;
-      background-color: rgba(255, 255, 255, 0.753);
+      background-color: rgba(
+        255,
+        255,
+        255,
+        0.753
+      );
       position: relative;
       bottom: 100px;
       text-align: center;
@@ -420,7 +519,14 @@ html,
         display: block;
         position: relative;
         border: 2px solid #000000;
-        transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+        transition: all 0.4s
+          cubic-bezier(
+            0.215,
+            0.61,
+            0.355,
+            1
+          )
+          0s;
       }
       a.animated-button.thar-one:hover {
         color: #000 !important;
@@ -443,7 +549,14 @@ html,
         content: "";
         color: #000 !important;
         background: #ff0000;
-        transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+        transition: all 0.4s
+          cubic-bezier(
+            0.215,
+            0.61,
+            0.355,
+            1
+          )
+          0s;
       }
     }
   }
@@ -471,9 +584,16 @@ html,
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px
+      rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.2s
+      cubic-bezier(
+        0.68,
+        -0.55,
+        0.265,
+        1.55
+      );
   }
 
   .wrapper .tooltip {
@@ -484,10 +604,17 @@ html,
     color: #ffffff;
     padding: 5px 8px;
     border-radius: 5px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px
+      rgba(0, 0, 0, 0.1);
     opacity: 0;
     pointer-events: none;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.3s
+      cubic-bezier(
+        0.68,
+        -0.55,
+        0.265,
+        1.55
+      );
   }
 
   .wrapper .tooltip::before {
@@ -498,8 +625,15 @@ html,
     background-color: #ffffff;
     bottom: -3px;
     left: 50%;
-    transform: translate(-50%) rotate(45deg);
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: translate(-50%)
+      rotate(45deg);
+    transition: all 0.3s
+      cubic-bezier(
+        0.68,
+        -0.55,
+        0.265,
+        1.55
+      );
   }
 
   .wrapper .icon:hover .tooltip {
@@ -516,21 +650,27 @@ html,
 
   .wrapper .facebook:hover,
   .wrapper .facebook:hover .tooltip,
-  .wrapper .facebook:hover .tooltip::before {
+  .wrapper
+    .facebook:hover
+    .tooltip::before {
     background-color: #3b5999;
     color: #ffffff;
   }
 
   .wrapper .mail:hover,
   .wrapper .mail:hover .tooltip,
-  .wrapper .mail:hover .tooltip::before {
+  .wrapper
+    .mail:hover
+    .tooltip::before {
     background-color: #46c1f6;
     color: #ffffff;
   }
 
   .wrapper .instagram:hover,
   .wrapper .instagram:hover .tooltip,
-  .wrapper .instagram:hover .tooltip::before {
+  .wrapper
+    .instagram:hover
+    .tooltip::before {
     background-color: #e1306c;
     color: #ffffff;
   }
@@ -544,7 +684,9 @@ html,
 
   .wrapper .youtube:hover,
   .wrapper .youtube:hover .tooltip,
-  .wrapper .youtube:hover .tooltip::before {
+  .wrapper
+    .youtube:hover
+    .tooltip::before {
     background-color: #de463b;
     color: #ffffff;
   }
@@ -557,7 +699,11 @@ html,
     height: 80px;
     align-items: center;
     justify-content: space-between;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(
+      255,
+      255,
+      255
+    );
 
     .nav-brand {
       display: block;
@@ -579,7 +725,12 @@ html,
       }
       .nav-link:hover {
         border-radius: 5px;
-        background-color: rgba(17, 17, 17, 0.233);
+        background-color: rgba(
+          17,
+          17,
+          17,
+          0.233
+        );
       }
     }
 
@@ -619,7 +770,12 @@ html,
       justify-content: flex-start;
       align-items: flex-start;
       list-style: none;
-      background-color: rgba(180, 238, 20, 0.623);
+      background-color: rgba(
+        180,
+        238,
+        20,
+        0.623
+      );
       border-radius: 10px;
       padding: 15px 20px;
       width: 0px;
@@ -634,8 +790,10 @@ html,
         padding: 8px 12px;
         margin: 10px 0;
         border-radius: 5px;
-        border-bottom: 2px solid rgba(0, 0, 0, 0.274);
-        border-left: 2px solid rgba(0, 0, 0, 0.274);
+        border-bottom: 2px solid
+          rgba(0, 0, 0, 0.274);
+        border-left: 2px solid
+          rgba(0, 0, 0, 0.274);
         display: flex;
         justify-content: space-between;
         align-items: center;
@@ -643,7 +801,12 @@ html,
         transition: 200ms ease-in;
         p {
           // border-left: 2px solid grey;
-          background-color: rgba(255, 255, 255, 0.397);
+          background-color: rgba(
+            255,
+            255,
+            255,
+            0.397
+          );
           padding: 2px 4px;
           border-radius: 5px;
         }
@@ -655,15 +818,22 @@ html,
         background-color: #fff;
       }
       li:hover {
-        background-color: rgba(0, 0, 0, 0.219);
+        background-color: rgba(
+          0,
+          0,
+          0,
+          0.219
+        );
         transform: scale(1.05);
       }
     }
     .cart:hover ul {
       visibility: visible;
       width: 300px;
-      box-shadow: inset 6px 6px 15px 1px rgba(255, 255, 255, 0.507),
-        inset -6px -6px 15px 1px rgba(0, 0, 0, 0.507);
+      box-shadow: inset 6px 6px 15px 1px
+          rgba(255, 255, 255, 0.507),
+        inset -6px -6px 15px 1px
+          rgba(0, 0, 0, 0.507);
       right: 0;
     }
   }
@@ -700,7 +870,11 @@ html,
       }
 
       .maintext {
-        background-color: rgb(255, 255, 255);
+        background-color: rgb(
+          255,
+          255,
+          255
+        );
         width: 45vw;
         min-width: 400px;
         height: auto;
@@ -732,7 +906,13 @@ html,
 
     .card-image {
       width: 30vw;
-      transition: 500ms cubic-bezier(0.075, 0.82, 0.165, 1);
+      transition: 500ms
+        cubic-bezier(
+          0.075,
+          0.82,
+          0.165,
+          1
+        );
 
       position: relative;
     }
@@ -754,7 +934,12 @@ html,
 
     .content {
       width: 50vw;
-      background-color: rgba(255, 255, 255, 0.753);
+      background-color: rgba(
+        255,
+        255,
+        255,
+        0.753
+      );
       position: relative;
       bottom: 150px;
       text-align: center;
@@ -783,7 +968,14 @@ html,
         display: none;
         position: relative;
         border: 2px solid #000000;
-        transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+        transition: all 0.4s
+          cubic-bezier(
+            0.215,
+            0.61,
+            0.355,
+            1
+          )
+          0s;
       }
       a.animated-button.thar-one:hover {
         color: #000 !important;
@@ -806,11 +998,19 @@ html,
         content: "";
         color: #000 !important;
         background: #ff0000;
-        transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
+        transition: all 0.4s
+          cubic-bezier(
+            0.215,
+            0.61,
+            0.355,
+            1
+          )
+          0s;
       }
     }
 
-    .content:hover a.animated-button.thar-one {
+    .content:hover
+      a.animated-button.thar-one {
       display: block;
     }
 
@@ -827,7 +1027,11 @@ html,
     justify-content: center;
     align-items: center;
     height: 25vh;
-    background-color: rgb(109, 109, 109);
+    background-color: rgb(
+      109,
+      109,
+      109
+    );
 
     i {
       font-size: 1.7rem;
@@ -850,9 +1054,16 @@ html,
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px
+      rgba(0, 0, 0, 0.1);
     cursor: pointer;
-    transition: all 0.2s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.2s
+      cubic-bezier(
+        0.68,
+        -0.55,
+        0.265,
+        1.55
+      );
   }
 
   .wrapper .tooltip {
@@ -863,10 +1074,17 @@ html,
     color: #ffffff;
     padding: 5px 8px;
     border-radius: 5px;
-    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 10px
+      rgba(0, 0, 0, 0.1);
     opacity: 0;
     pointer-events: none;
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.3s
+      cubic-bezier(
+        0.68,
+        -0.55,
+        0.265,
+        1.55
+      );
   }
 
   .wrapper .tooltip::before {
@@ -877,8 +1095,15 @@ html,
     background-color: #ffffff;
     bottom: -3px;
     left: 50%;
-    transform: translate(-50%) rotate(45deg);
-    transition: all 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: translate(-50%)
+      rotate(45deg);
+    transition: all 0.3s
+      cubic-bezier(
+        0.68,
+        -0.55,
+        0.265,
+        1.55
+      );
   }
 
   .wrapper .icon:hover .tooltip {
@@ -895,21 +1120,27 @@ html,
 
   .wrapper .facebook:hover,
   .wrapper .facebook:hover .tooltip,
-  .wrapper .facebook:hover .tooltip::before {
+  .wrapper
+    .facebook:hover
+    .tooltip::before {
     background-color: #3b5999;
     color: #ffffff;
   }
 
   .wrapper .mail:hover,
   .wrapper .mail:hover .tooltip,
-  .wrapper .mail:hover .tooltip::before {
+  .wrapper
+    .mail:hover
+    .tooltip::before {
     background-color: #46c1f6;
     color: #ffffff;
   }
 
   .wrapper .instagram:hover,
   .wrapper .instagram:hover .tooltip,
-  .wrapper .instagram:hover .tooltip::before {
+  .wrapper
+    .instagram:hover
+    .tooltip::before {
     background-color: #e1306c;
     color: #ffffff;
   }
@@ -923,7 +1154,9 @@ html,
 
   .wrapper .youtube:hover,
   .wrapper .youtube:hover .tooltip,
-  .wrapper .youtube:hover .tooltip::before {
+  .wrapper
+    .youtube:hover
+    .tooltip::before {
     background-color: #de463b;
     color: #ffffff;
   }

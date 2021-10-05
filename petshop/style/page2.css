@@ -321,7 +321,9 @@ html,
 
 .wrapper .facebook:hover,
 .wrapper .facebook:hover .tooltip,
-.wrapper .facebook:hover .tooltip::before {
+.wrapper
+.facebook:hover
+.tooltip::before {
   background-color: #3b5999;
   color: #ffffff;
 }
@@ -335,7 +337,9 @@ html,
 
 .wrapper .instagram:hover,
 .wrapper .instagram:hover .tooltip,
-.wrapper .instagram:hover .tooltip::before {
+.wrapper
+.instagram:hover
+.tooltip::before {
   background-color: #e1306c;
   color: #ffffff;
 }
@@ -349,7 +353,9 @@ html,
 
 .wrapper .youtube:hover,
 .wrapper .youtube:hover .tooltip,
-.wrapper .youtube:hover .tooltip::before {
+.wrapper
+.youtube:hover
+.tooltip::before {
   background-color: #de463b;
   color: #ffffff;
 }
@@ -611,19 +617,25 @@ html,
   }
   .wrapper .facebook:hover,
   .wrapper .facebook:hover .tooltip,
-  .wrapper .facebook:hover .tooltip::before {
+  .wrapper
+.facebook:hover
+.tooltip::before {
     background-color: #3b5999;
     color: #ffffff;
   }
   .wrapper .mail:hover,
   .wrapper .mail:hover .tooltip,
-  .wrapper .mail:hover .tooltip::before {
+  .wrapper
+.mail:hover
+.tooltip::before {
     background-color: #46c1f6;
     color: #ffffff;
   }
   .wrapper .instagram:hover,
   .wrapper .instagram:hover .tooltip,
-  .wrapper .instagram:hover .tooltip::before {
+  .wrapper
+.instagram:hover
+.tooltip::before {
     background-color: #e1306c;
     color: #ffffff;
   }
@@ -635,7 +647,9 @@ html,
   }
   .wrapper .youtube:hover,
   .wrapper .youtube:hover .tooltip,
-  .wrapper .youtube:hover .tooltip::before {
+  .wrapper
+.youtube:hover
+.tooltip::before {
     background-color: #de463b;
     color: #ffffff;
   }
@@ -938,7 +952,8 @@ html,
     -webkit-transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
     transition: all 0.4s cubic-bezier(0.215, 0.61, 0.355, 1) 0s;
   }
-  .product .content:hover a.animated-button.thar-one {
+  .product .content:hover
+a.animated-button.thar-one {
     display: block;
   }
   .product .content:nth-of-type(odd) {
@@ -1032,19 +1047,25 @@ html,
   }
   .wrapper .facebook:hover,
   .wrapper .facebook:hover .tooltip,
-  .wrapper .facebook:hover .tooltip::before {
+  .wrapper
+.facebook:hover
+.tooltip::before {
     background-color: #3b5999;
     color: #ffffff;
   }
   .wrapper .mail:hover,
   .wrapper .mail:hover .tooltip,
-  .wrapper .mail:hover .tooltip::before {
+  .wrapper
+.mail:hover
+.tooltip::before {
     background-color: #46c1f6;
     color: #ffffff;
   }
   .wrapper .instagram:hover,
   .wrapper .instagram:hover .tooltip,
-  .wrapper .instagram:hover .tooltip::before {
+  .wrapper
+.instagram:hover
+.tooltip::before {
     background-color: #e1306c;
     color: #ffffff;
   }
@@ -1056,7 +1077,9 @@ html,
   }
   .wrapper .youtube:hover,
   .wrapper .youtube:hover .tooltip,
-  .wrapper .youtube:hover .tooltip::before {
+  .wrapper
+.youtube:hover
+.tooltip::before {
     background-color: #de463b;
     color: #ffffff;
   }

@@ -643,10 +643,10 @@ html {
   }
 }
 @media only screen and (min-width: 768px) {
-  html,
-  body {
-    overflow-y: hidden;
-  }
+  // html,
+  // body {
+  //   overflow-y: hidden;
+  // }
   .container {
     overflow-x: hidden;
 
@@ -1082,7 +1082,7 @@ html {
         display: flex;
         flex-direction: row;
         align-items: flex-start;
-        width: 60vw;
+        width: 50vw;
         margin: 0;
         background-color: rgba(
           0,

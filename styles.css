@@ -800,10 +800,6 @@ html {
 }
 
 @media only screen and (min-width: 768px) {
-  html,
-  body {
-    overflow-y: hidden;
-  }
   .container {
     overflow-x: hidden;
   }
@@ -1237,7 +1233,7 @@ html {
     -webkit-box-align: start;
         -ms-flex-align: start;
             align-items: flex-start;
-    width: 60vw;
+    width: 50vw;
     margin: 0;
     background-color: rgba(0, 0, 0, 0.459);
     border-radius: 10px;
