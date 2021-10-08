@@ -11,14 +11,25 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Borin-Simone</title>
-    <script
-      src="https://kit.fontawesome.com/5f5c3819f1.js"
-      crossorigin="anonymous"
-    ></script>
     <link
       rel="stylesheet"
       href="styles.css"
     />
+    <script
+      src="https://kit.fontawesome.com/5f5c3819f1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
+    ></script>
+    <script type="text/javascript">
+      (function () {
+        emailjs.init(
+          "user_9QbPas6Lk3s3PTRvPgxe1"
+        );
+      })();
+    </script>
   </head>
   <body>
     <div class="container">
@@ -439,15 +450,15 @@
                 onclick="sendMail()"
                 class="btn btn-one"
               >
-                <span>Submit</span>
+                <span>Send</span>
               </div>
             </div>
           </div>
           <div class="info">
             <h1>contact</h1>
             <p class="subtitle">
-              Compila il form accanto
-              per essere ricontattato.
+              Compila il form per essere
+              ricontattato.
             </p>
             <ul class="info-item">
               <li class="info-link">
@@ -483,5 +494,36 @@
         </div>
       </div>
     </div>
+
+    <script>
+      function sendMail(params) {
+        var tempParams = {
+          from_name:
+            document.getElementById(
+              "fromName"
+            ),
+          to_name:
+            document.getElementById(
+              "toName"
+            ),
+          message:
+            document.getElementById(
+              "msg"
+            ),
+        };
+        emailjs
+          .send(
+            `service_6lyr3fw`,
+            `template_yetbo2g`,
+            tempParams
+          )
+          .then(function (res) {
+            console.log(
+              `success`,
+              res.status
+            );
+          });
+      }
+    </script>
   </body>
 </html>
