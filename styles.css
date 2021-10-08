@@ -259,7 +259,6 @@ html {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
-  min-height: 80vh;
   height: 100%;
 }
 
