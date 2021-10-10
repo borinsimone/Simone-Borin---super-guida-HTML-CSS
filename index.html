@@ -11,14 +11,6 @@
       content="width=device-width, initial-scale=1.0"
     />
     <title>Borin-Simone</title>
-    <link
-      rel="stylesheet"
-      href="styles.css"
-    />
-    <script
-      src="https://kit.fontawesome.com/5f5c3819f1.js"
-      crossorigin="anonymous"
-    ></script>
     <script
       type="text/javascript"
       src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"
@@ -30,6 +22,14 @@
         );
       })();
     </script>
+    <link
+      rel="stylesheet"
+      href="styles.css"
+    />
+    <script
+      src="https://kit.fontawesome.com/5f5c3819f1.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <div class="container">
@@ -501,15 +501,15 @@
           from_name:
             document.getElementById(
               "fromName"
-            ),
+            ).value,
           to_name:
             document.getElementById(
               "toName"
-            ),
+            ).value,
           message:
             document.getElementById(
               "msg"
-            ),
+            ).value,
         };
         emailjs
           .send(
