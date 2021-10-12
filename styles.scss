@@ -1,9 +1,10 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Source+Sans+Pro:ital@1&display=swap");
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-size: 16px;
-  font-family: roboto, sans-serif;
+  font-family: "Roboto", sans-serif;
   color: #fff;
 }
 a {
@@ -182,6 +183,8 @@ html {
         margin: 20px 0;
       }
       .home-text {
+        font-family: "Source Sans Pro", sans-serif;
+
         width: 60vw;
         text-align: start;
         letter-spacing: 1px;
@@ -218,6 +221,7 @@ html {
         // line-height: 1.6rem;
         font-size: 1.4rem;
         line-height: 1.9rem;
+        font-family: "Source Code Pro", monospace;
       }
     }
   }
@@ -495,6 +499,7 @@ html {
         }
       }
     }
+
     .work {
       display: flex;
       flex-direction: column;
@@ -736,7 +741,7 @@ html {
           text-align: center;
           letter-spacing: 1px;
           position: relative;
-          left: -60px;
+          left: 0px;
           font-size: 2rem;
           line-height: 1.3em;
           margin-top: 90px;
@@ -745,7 +750,6 @@ html {
           animation-duration: 2.4s;
           animation-timing-function: ease-out;
           animation-delay: 0s;
-          // // animation-iteration-count: 2;
           animation-name: fadeInBottom;
         }
       }
@@ -758,10 +762,9 @@ html {
         align-items: center;
         justify-content: center;
         .text {
-          margin-top: 130px;
-          // margin-left: 100px;
+          margin-top: 100px;
           padding: 30px;
-          width: 40vw;
+          width: 60vw;
           border-radius: 10px;
           background-color: rgba(255, 255, 255, 0.329);
           .paragraph {
@@ -781,10 +784,7 @@ html {
         font-size: 2.4rem;
         text-transform: capitalize;
       }
-      p {
-        font-size: 1.3rem;
-        margin-bottom: 1em;
-      }
+
       .card-wrapper {
         background: rgba(255, 255, 255, 0.274);
         display: flex;
