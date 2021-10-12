@@ -65,7 +65,7 @@ a {
 .mainpage .home {
   width: 100vw;
   background-color: silver;
-  height: calc(100vh - 80px);
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -124,6 +124,7 @@ a {
   width: 85vw;
   border-radius: 5px;
   height: 100%;
+  margin-bottom: 50px;
 }
 
 .mainpage .home .maintext p {
