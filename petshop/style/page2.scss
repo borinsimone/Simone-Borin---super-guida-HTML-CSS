@@ -26,9 +26,9 @@ a {
     .nav-link {
       font-size: 1.1rem;
       text-decoration: none;
-      padding: 5px 8px;
+      padding: 5px 5px;
       transition: 200ms ease;
-      text-transform: uppercase;
+      text-transform: capitalize;
     }
     .nav-link:hover {
       border-radius: 5px;
