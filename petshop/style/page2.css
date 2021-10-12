@@ -66,6 +66,7 @@ a {
   width: 100vw;
   background-color: silver;
   height: auto;
+  min-height: 100vh;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
