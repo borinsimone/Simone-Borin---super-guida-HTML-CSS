@@ -62,44 +62,12 @@ html {
     -webkit-transform: translatex(350%);
             transform: translatex(350%);
   }
-  40% {
-    -webkit-transform: translateX(-10%);
-            transform: translateX(-10%);
-  }
-  50% {
-    -webkit-transform: translateX(-10%);
-            transform: translateX(-10%);
-  }
-  70% {
-    -webkit-transform: translateX(6px);
-            transform: translateX(6px);
-  }
-  90% {
-    -webkit-transform: translateX(-4px);
-            transform: translateX(-4px);
-  }
 }
 
 @keyframes slideInRight {
   0% {
     -webkit-transform: translatex(350%);
             transform: translatex(350%);
-  }
-  40% {
-    -webkit-transform: translateX(-10%);
-            transform: translateX(-10%);
-  }
-  50% {
-    -webkit-transform: translateX(-10%);
-            transform: translateX(-10%);
-  }
-  70% {
-    -webkit-transform: translateX(6px);
-            transform: translateX(6px);
-  }
-  90% {
-    -webkit-transform: translateX(-4px);
-            transform: translateX(-4px);
   }
 }
 
@@ -148,8 +116,8 @@ html {
 .glow {
   border-radius: 50%;
   background-color: #fff;
-  -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
-          box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
+  -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
+          box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
 }
 
 .home,
@@ -281,8 +249,8 @@ html {
   margin: 20px 0;
   -webkit-animation-duration: 1.8s;
           animation-duration: 1.8s;
-  -webkit-animation-timing-function: ease-out;
-          animation-timing-function: ease-out;
+  -webkit-animation-timing-function: cubic-bezier(0.47, 1.64, 0.41, 0.8);
+          animation-timing-function: cubic-bezier(0.47, 1.64, 0.41, 0.8);
   -webkit-animation-delay: 0s;
           animation-delay: 0s;
   -webkit-animation-name: slideInRight;
@@ -410,7 +378,7 @@ html {
 }
 
 .container .work .card-wrapper .card .card-text .card-title p {
-  border-bottom: 2px solid white;
+  border-bottom: 2px solid white;
   text-transform: capitalize;
   margin: 10px auto;
   width: -webkit-fit-content;
@@ -419,8 +387,8 @@ html {
 }
 
 .container .work .card-wrapper .card .card-text .text {
-  -webkit-transition: height 200ms ease-in;
-  transition: height 200ms ease-in;
+  -webkit-transition: height 200ms ease-in;
+  transition: height 200ms ease-in;
   height: 0px;
   width: 60%;
   opacity: 0;
@@ -453,8 +421,8 @@ html {
   margin-top: 40px;
   border-radius: 50%;
   background-color: #fff;
-  -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
-          box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
+  -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
+          box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
 }
 
 .container .contact {
@@ -519,8 +487,8 @@ html {
   text-transform: capitalize;
   margin: 10px 0;
   border-radius: 4px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
 }
 
 .container .contact .text-window .subscribe input:focus {
@@ -543,8 +511,8 @@ html {
   font-size: 1rem;
   margin: 10px 0;
   border-radius: 4px;
-  -webkit-transition: width 0.4s ease-in-out;
-  transition: width 0.4s ease-in-out;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
   resize: none;
   overflow-y: hidden;
 }
@@ -735,7 +703,7 @@ html {
     background-position: center;
   }
   .container .work .card-wrapper .card .card-text .card-title p {
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid white;
     text-transform: capitalize;
     margin: 10px auto;
     font-size: 2rem;
@@ -744,8 +712,8 @@ html {
     width: fit-content;
   }
   .container .work .card-wrapper .card .card-text .text {
-    -webkit-transition: height 200ms ease-in;
-    transition: height 200ms ease-in;
+    -webkit-transition: height 200ms ease-in;
+    transition: height 200ms ease-in;
     height: 0;
     opacity: 0;
   }
@@ -764,8 +732,8 @@ html {
     margin-top: 30px;
     border-radius: 50%;
     background-color: #fff;
-    -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
-            box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
+    -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
+            box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
   }
   .container .contact .subscribe input {
     padding: 20px 10px !important;
@@ -804,7 +772,7 @@ html {
   .container .about,
   .container .work,
   .container .contact {
-    width: calc( 100vw - 100px) !important;
+    width: calc(100vw - 100px) !important;
   }
   .container .navbar {
     background-color: #1a1a1a;
@@ -1049,7 +1017,7 @@ html {
     left: 0;
     width: 350px;
     height: 200px;
-    background-image: linear-gradient(120deg, #61e743, #ee4d42);
+    background-image: linear-gradient(120deg, #00ff95, #0011ff);
     opacity: 0;
     border-radius: 10px;
     -webkit-transition: 500ms;
@@ -1144,11 +1112,11 @@ html {
     border-radius: 10px;
   }
   .container .work .card-wrapper .card:hover .card-title {
-    -webkit-box-shadow: inset 8px 8px 11px -2px #ffffff, inset -3px -8px 11px -2px #000000 !important;
-    box-shadow: inset 8px 8px 11px -2px #ffffff, inset -3px -3px 11px -2px #000000 !important;
+    -webkit-box-shadow: inset 8px 8px 11px -2px #ffffff, inset -3px -8px 11px -2px #000000 !important;
+    box-shadow: inset 8px 8px 11px -2px #ffffff, inset -3px -3px 11px -2px #000000 !important;
     background-color: #dddddd;
-    -webkit-box-shadow: 5px 5px 10px 5px #1d1d1d;
-            box-shadow: 5px 5px 10px 5px #1d1d1d;
+    -webkit-box-shadow: 5px 5px 10px 5px #1d1d1d;
+            box-shadow: 5px 5px 10px 5px #1d1d1d;
     cursor: pointer;
     border-radius: 20px;
     z-index: 100;
@@ -1174,7 +1142,9 @@ html {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
-    background-color: rgba(110, 247, 247, 0.671);
+    background-color: rgba(110, 247, 179, 0.438);
+    -webkit-backdrop-filter: blur(5px);
+            backdrop-filter: blur(5px);
     height: 120px;
   }
   .container .work .card-wrapper .card-text:hover .hidden {
@@ -1200,8 +1170,8 @@ html {
     margin-top: 10px;
     border-radius: 50%;
     background-color: #fff;
-    -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
-            box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
+    -webkit-box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
+            box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa, 0 0 82px #0fa, 0 0 102px #0fa;
   }
   .container .contact {
     display: -webkit-box;
@@ -1267,8 +1237,8 @@ html {
     text-transform: capitalize;
     margin: 10px 0;
     border-radius: 4px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
   }
   .container .contact .text-window .subscribe input:focus {
     outline: none;
@@ -1289,8 +1259,8 @@ html {
     margin: 0;
     margin-top: 10px;
     border-radius: 4px;
-    -webkit-transition: width 0.4s ease-in-out;
-    transition: width 0.4s ease-in-out;
+    -webkit-transition: width 0.4s ease-in-out;
+    transition: width 0.4s ease-in-out;
     resize: none;
     height: 200px;
   }
