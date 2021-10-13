@@ -45,7 +45,7 @@ a {
 
 .navbar .nav-items .nav-link:hover {
   border-radius: 5px;
-  background-color: #88fff5;
+  background-color: #b9b9b9;
 }
 
 .navbar .nav-link:hover:nth-of-type(1) {

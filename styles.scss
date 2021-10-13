@@ -17,7 +17,7 @@ a {
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 5px 0 10px rgb(0, 0, 0);
-
+  box-shadow: inset 5px 0 10px rgb(0, 0, 0);
   background-color: rgb(48, 48, 48);
 }
 
@@ -26,6 +26,7 @@ a {
   border-radius: 10px;
   background: rgba(87, 87, 87, 0.8);
   -webkit-box-shadow: inset 2px 0 2px rgba(255, 255, 255, 0.5);
+  box-shadow: inset 2px 0 2px rgba(255, 255, 255, 0.5);
 }
 ::-webkit-scrollbar-thumb:window-inactive {
   background: rgba(20, 65, 107, 0.4);
@@ -948,6 +949,7 @@ html {
       }
 
       .card-wrapper::-webkit-scrollbar-track {
+        box-shadow: inset 5px 0 10px rgb(0, 0, 0);
         -webkit-box-shadow: inset 5px 0 10px rgb(0, 0, 0);
 
         background-color: rgb(48, 48, 48);
@@ -957,6 +959,8 @@ html {
         -webkit-border-radius: 10px;
         border-radius: 10px;
         background: rgba(53, 53, 53, 0.8);
+        box-shadow: inset 2px 0 2px rgba(255, 255, 255, 0.5);
+
         -webkit-box-shadow: inset 2px 0 2px
           rgba(255, 255, 255, 0.5);
       }
@@ -968,8 +972,6 @@ html {
         background-color: #fff;
         box-shadow: 0 0 7px #fff, 0 0 10px #fff, 0 0 42px #0fa,
           0 0 82px #0fa, 0 0 102px #0fa;
-      }
-      .footer {
       }
     }
     .contact {

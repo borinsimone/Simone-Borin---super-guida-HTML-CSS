@@ -19,6 +19,7 @@ a {
 
 ::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 5px 0 10px black;
+  box-shadow: inset 5px 0 10px black;
   background-color: #303030;
 }
 
@@ -26,6 +27,7 @@ a {
   border-radius: 10px;
   background: rgba(87, 87, 87, 0.8);
   -webkit-box-shadow: inset 2px 0 2px rgba(255, 255, 255, 0.5);
+  box-shadow: inset 2px 0 2px rgba(255, 255, 255, 0.5);
 }
 
 ::-webkit-scrollbar-thumb:window-inactive {
@@ -1155,12 +1157,14 @@ html {
     width: 8px;
   }
   .container .work .card-wrapper::-webkit-scrollbar-track {
+    box-shadow: inset 5px 0 10px black;
     -webkit-box-shadow: inset 5px 0 10px black;
     background-color: #303030;
   }
   .container .work .card-wrapper::-webkit-scrollbar-thumb {
     border-radius: 10px;
     background: rgba(53, 53, 53, 0.8);
+    box-shadow: inset 2px 0 2px rgba(255, 255, 255, 0.5);
     -webkit-box-shadow: inset 2px 0 2px rgba(255, 255, 255, 0.5);
   }
   .container .work .glow {
