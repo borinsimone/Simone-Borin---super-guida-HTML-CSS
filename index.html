@@ -24,6 +24,46 @@
     ></script>
   </head>
   <body>
+    <div class="toggler" id="toggler">
+      <i class="fa fa-bars" id="bars" aria-hidden="true"></i>
+      <i class="fas fa-window-close" id="closeBars"></i>
+    </div>
+    <div class="menuWindow" id="menuWindow">
+      <div class="navWindow" id="navWindow">
+        <div class="navbar">
+          <ul class="menu">
+            <li class="nav-item">
+              <a href="#"><i class="fas fa-home"></i></a>
+              <div class="nav-link">
+                <a href="#">home</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#about"
+                ><i class="fas fa-user-alt"></i
+              ></a>
+              <div class="nav-link">
+                <a href="#about">about</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#work"><i class="fas fa-bolt"></i></a>
+              <div class="nav-link">
+                <a href="#work">lavori</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a href="#contact"
+                ><i class="fas fa-id-badge"></i
+              ></a>
+              <div class="nav-link">
+                <a href="#contact">contact</a>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
     <div class="container">
       <div class="home" id="home">
         <div class="navbar">
@@ -72,7 +112,35 @@
         </div>
 
         <div class="title">
-          <h1>Ciao, sono Simone</h1>
+          <div class="title-wrapper">
+            <!-- <h1>Ciao, sono Simone</h1> -->
+            <div class="animatedTitle">
+              <div class="titleFirst titleWord" id="titleFirst">
+                <span class="letter">C</span>
+                <span>i</span>
+                <span>a</span>
+                <span>o</span>
+                <span>,</span>
+              </div>
+              <div
+                class="titleSecond titleWord"
+                id="titleSecond"
+              >
+                <span>s</span>
+                <span>o</span>
+                <span>n</span>
+                <span>o</span>
+              </div>
+              <div class="titleThird titleWord" id="titleThird">
+                <span>S</span>
+                <span>i</span>
+                <span>m</span>
+                <span>o</span>
+                <span>n</span>
+                <span>e</span>
+              </div>
+            </div>
+          </div>
           <p class="subtitle">web designer</p>
           <div class="glow"></div>
           <p class="home-text">
@@ -359,6 +427,28 @@
             console.log(`success`, res.status);
           });
       }
+      let toggler = document.getElementById("toggler");
+      let menuWindow = document.getElementById("menuWindow");
+      let bars = document.getElementById("bars");
+      let closeBars = document.getElementById("closeBars");
+      function windowToggle() {
+        menuWindow.classList.toggle("menuActive");
+        toggler.classList.toggle("togglerActive");
+      }
+      function windowRemove() {
+        menuWindow.classList.remove("menuActive");
+        toggler.classList.remove("togglerActive");
+        bars.classList.remove("barsActive");
+        closeBars.classList.remove("closeActive");
+      }
+      toggler.addEventListener("click", function () {
+        windowToggle();
+        bars.classList.toggle("barsActive");
+        closeBars.classList.toggle("closeActive");
+      });
+      menuWindow.addEventListener("click", function () {
+        windowRemove();
+      });
     </script>
   </body>
 </html>
